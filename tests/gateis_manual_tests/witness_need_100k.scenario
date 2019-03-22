@@ -1,0 +1,99 @@
+//scenario 1: tyslin has no money. It has more votes than germut, but it shouldn't become witness
+
+// prerequisites: set "maintenance_interval" in genesis.json to 10 sec
+
+// wallet cli:
+// check active witnesses with> get_global_properties
+// get all witnesses with> list_witnesses "" 1000
+########### COPY AFTER THIS LINE AND INSERT IN cli_wallet (wallet.json should be removed) #############
+
+set_password testpass
+unlock testpass
+
+import_key notteler "5KCNzYJAi6oDwq18EXzwJYn65xRzFVz5JYr3EYh9QevgxwuX1Ad" true
+import_balance notteler ["5KCNzYJAi6oDwq18EXzwJYn65xRzFVz5JYr3EYh9QevgxwuX1Ad"] true true
+
+import_key germut "5KKinpDPHAe519pZ1joHbZNpQrNskjgpAA9dr8Myj1LyXvmqwnb" true
+import_balance germut ["5KKinpDPHAe519pZ1joHbZNpQrNskjgpAA9dr8Myj1LyXvmqwnb"] true true
+
+import_key tyslin-ico "5JuZjge7gZhkm32kuWuY5rFs6sU5YZJa9dRhbbmyyZkgqWcHbRi" true
+import_balance tyslin-ico ["5JuZjge7gZhkm32kuWuY5rFs6sU5YZJa9dRhbbmyyZkgqWcHbRi"] true true
+
+import_key tyslin "5JLYsHKwujWcjshtkfaR1AcLshgf1Xo6tgehcZtsXzRjrrLXDqd" true
+import_balance tyslin ["5JLYsHKwujWcjshtkfaR1AcLshgf1Xo6tgehcZtsXzRjrrLXDqd"] true true
+
+import_key tyslin-wallet "5JoSGd8QVoSy2bayYf1xVKK4y8bfjpyd4mLEXeJM3dZ79LiYx7s" true
+import_balance tyslin-wallet ["5JoSGd8QVoSy2bayYf1xVKK4y8bfjpyd4mLEXeJM3dZ79LiYx7s"] true true
+
+import_key tyslin-fiat "5KJgab4NcbBXqAo6eFktvDaJfMQBmwD6LGeVJ26R2XB584zShhZ" true
+import_balance tyslin-fiat ["5KJgab4NcbBXqAo6eFktvDaJfMQBmwD6LGeVJ26R2XB584zShhZ"] true true
+
+import_key tyslin-otc "5Hz2oKGJKbmDC5Bp7ARFHdS8tFL2o4wm8DybFtmr3w97pAX4KM7" true
+import_balance tyslin-otc ["5Hz2oKGJKbmDC5Bp7ARFHdS8tFL2o4wm8DybFtmr3w97pAX4KM7"] true true
+
+import_key tyslin-feed "5JjKPDzqw9DWPPhatkM7jo3PBoAMYDnUrCcLJQXYdw9eHRLad6k" true
+import_balance tyslin-feed ["5JjKPDzqw9DWPPhatkM7jo3PBoAMYDnUrCcLJQXYdw9eHRLad6k"] true true
+
+transfer germut tyslin-fiat 5010000 TYS "" true
+transfer germut tyslin-wallet 5010000 TYS "" true
+transfer germut tyslin-otc 5010000 TYS "" true
+transfer germut tyslin-feed 5010000 TYS "" true
+
+vote_for_witness notteler           germut true true
+vote_for_witness tyslin-ico      germut true true
+
+vote_for_witness germut             tyslin true true
+vote_for_witness notteler           tyslin true true
+vote_for_witness tyslin-fiat     tyslin true true
+vote_for_witness tyslin-wallet   tyslin true true
+vote_for_witness tyslin-feed     tyslin true true
+vote_for_witness tyslin-otc      tyslin true true
+vote_for_witness tyslin-ico      tyslin true true
+
+vote_for_witness germut             notteler true true
+vote_for_witness notteler           notteler true true
+vote_for_witness tyslin-fiat     notteler true true
+vote_for_witness tyslin-wallet   notteler true true
+vote_for_witness tyslin-feed     notteler true true
+vote_for_witness tyslin-otc      notteler true true
+vote_for_witness tyslin-ico      notteler true true
+
+vote_for_witness germut             tyslin-fiat true true
+vote_for_witness notteler           tyslin-fiat true true
+vote_for_witness tyslin-fiat     tyslin-fiat true true
+vote_for_witness tyslin-wallet   tyslin-fiat true true
+vote_for_witness tyslin-feed     tyslin-fiat true true
+vote_for_witness tyslin-otc      tyslin-fiat true true
+vote_for_witness tyslin-ico      tyslin-fiat true true
+
+vote_for_witness germut             tyslin-wallet true true
+vote_for_witness notteler           tyslin-wallet true true
+vote_for_witness tyslin-fiat     tyslin-wallet true true
+vote_for_witness tyslin-wallet   tyslin-wallet true true
+vote_for_witness tyslin-feed     tyslin-wallet true true
+vote_for_witness tyslin-otc      tyslin-wallet true true
+vote_for_witness tyslin-ico      tyslin-wallet true true
+
+vote_for_witness germut             tyslin-otc true true
+vote_for_witness notteler           tyslin-otc true true
+vote_for_witness tyslin-fiat     tyslin-otc true true
+vote_for_witness tyslin-wallet   tyslin-otc true true
+vote_for_witness tyslin-feed     tyslin-otc true true
+vote_for_witness tyslin-otc      tyslin-otc true true
+vote_for_witness tyslin-ico      tyslin-otc true true
+
+vote_for_witness germut             tyslin-ico true true
+vote_for_witness notteler           tyslin-ico true true
+vote_for_witness tyslin-fiat     tyslin-ico true true
+vote_for_witness tyslin-wallet   tyslin-ico true true
+vote_for_witness tyslin-feed     tyslin-ico true true
+vote_for_witness tyslin-otc      tyslin-ico true true
+vote_for_witness tyslin-ico      tyslin-ico true true
+
+vote_for_witness germut             tyslin-feed  true true
+vote_for_witness notteler           tyslin-feed  true true
+vote_for_witness tyslin-fiat     tyslin-feed  true true
+vote_for_witness tyslin-wallet   tyslin-feed  true true
+vote_for_witness tyslin-feed     tyslin-feed  true true
+vote_for_witness tyslin-otc      tyslin-feed  true true
+vote_for_witness tyslin-ico      tyslin-feed  true true

@@ -1,0 +1,841 @@
+{
+  "initial_timestamp": "2019-03-22T011:15:00",
+  "max_core_supply": "500000000000000",
+  "initial_parameters": {
+      "current_fees": {
+          "parameters": [
+              [
+                  0, {
+                      "fee": 10420,
+                      "price_per_kbyte": 5789
+                  }
+              ],
+              [
+                  1, {
+                      "fee": 578
+                  }
+              ],
+              [
+                  2, {
+                      "fee": 57
+                  }
+              ],
+              [
+                  3, {
+                      "fee": 578
+                  }
+              ],
+              [
+                  4, {}
+              ],
+              [
+                  5, {
+                      "basic_fee": 11578,
+                      "premium_fee": 578918,
+                      "price_per_kbyte": 810
+                  }
+              ],
+              [
+                  6, {
+                      "fee": 578,
+                      "price_per_kbyte": 4052
+                  }
+              ],
+              [
+                  7, {
+                      "fee": 11578
+                  }
+              ],
+              [
+                  8, {
+                      "membership_annual_fee": 57312931034482,
+                      "membership_lifetime_fee": 69470219
+                  }
+              ],
+              [
+                  9, {
+                      "fee": 2894592
+                  }
+              ],
+              [
+                  10, {
+                      "symbol3": "4631347962",
+                      "symbol4": "1157836990",
+                      "long_symbol": 28945924,
+                      "price_per_kbyte": 5789
+                  }
+              ],
+              [
+                  11, {
+                      "fee": 1157836,
+                      "price_per_kbyte": 4052
+                  }
+              ],
+              [
+                  12, {
+                      "fee": 2894592
+                  }
+              ],
+              [
+                  13, {
+                      "fee": 2894592
+                  }
+              ],
+              [
+                  14, {
+                      "fee": 10420,
+                      "price_per_kbyte": 5789
+                  }
+              ],
+              [
+                  15, {
+                      "fee": 578
+                  }
+              ],
+              [
+                  16, {
+                      "fee": 289459
+                  }
+              ],
+              [
+                  17, {
+                      "fee": 28945
+                  }
+              ],
+              [
+                  18, {
+                      "fee": 2894592
+                  }
+              ],
+              [
+                  19, {
+                      "fee": 57
+                  }
+              ],
+              [
+                  20, {
+                      "fee": 5789185
+                  }
+              ],
+              [
+                  21, {
+                      "fee": 1158
+                  }
+              ],
+              [
+                  22, {
+                      "fee": 86837,
+                      "price_per_kbyte": 28945
+                  }
+              ],
+              [
+                  23, {
+                      "fee": 2894,
+                      "price_per_kbyte": 4052
+                  }
+              ],
+              [
+                  24, {
+                      "fee": 0
+                  }
+              ],
+              [
+                  25, {
+                      "fee": 86837
+                  }
+              ],
+              [
+                  26, {
+                      "fee": 5789
+                  }
+              ],
+              [
+                  27, {
+                      "fee": 8336,
+                      "price_per_kbyte": 4052
+                  }
+              ],
+              [
+                  28, {
+                      "fee": 0
+                  }
+              ],
+              [
+                  29, {
+                      "fee": 2894592
+                  }
+              ],
+              [
+                  30, {
+                      "fee": 5789184
+                  }
+              ],
+              [
+                  31, {
+                      "fee": 0
+                  }
+              ],
+              [
+                  32, {
+                      "fee": 578918
+                  }
+              ],
+              [
+                  33, {
+                      "fee": 1157836
+                  }
+              ],
+              [
+                  34, {
+                      "fee": 5789185
+                  }
+              ],
+              [
+                  35, {
+                      "fee": 5789,
+                      "price_per_kbyte": 28945
+                  }
+              ],
+              [
+                  36, {
+                      "fee": 289459
+                  }
+              ],
+              [
+                  37, {}
+              ],
+              [
+                  38, {
+                      "fee": 578918,
+                      "price_per_kbyte": 4052
+                  }
+              ],
+              [
+                  39, {
+                      "fee": 121572,
+                      "price_per_output": 40524
+                  }
+              ],
+              [
+                  40, {
+                      "fee": 121572,
+                      "price_per_output": 121572
+                  }
+              ],
+              [
+                  41, {
+                      "fee": 121572
+                  }
+              ],
+              [
+                  42, {}
+              ],
+              [
+                  43, {
+                      "fee": 2000000
+                  }
+              ],
+              [
+                  44, {}
+              ],
+              [
+                  45, {
+                      "fee": 2000000
+                  }
+              ],
+              [
+                  46, {}
+              ],
+              [
+                  47, {
+                      "fee": 1000000
+                  }
+              ],
+              [
+                  48, {
+          "fee": 100000
+        }
+              ]		
+          ],
+          "scale": 10000
+      },
+      "block_interval": 2,
+      "maintenance_interval": 86400,
+      "maintenance_skip_slots": 3,
+      "committee_proposal_review_period": 1209600,
+      "maximum_transaction_size": 2048,
+      "maximum_block_size": 2000000,
+      "maximum_time_until_expiration": 86400,
+      "maximum_proposal_lifetime": 2419200,
+      "maximum_asset_whitelist_authorities": 10,
+      "maximum_asset_feed_publishers": 10,
+      "maximum_witness_count": 1001,
+      "maximum_committee_count": 1001,
+      "maximum_authority_membership": 10,
+      "reserve_percent_of_fee": 2000,
+      "network_percent_of_fee": 2000,
+      "lifetime_referrer_percent_of_fee": 3000,
+      "cashback_vesting_period_seconds": 31536000,
+      "cashback_vesting_threshold": 10000000,
+      "count_non_member_votes": true,
+      "allow_non_member_whitelists": false,
+      "witness_pay_per_block": 65000,
+  "activenode_pay_per_block": 6500,
+      "worker_budget_per_day": "30000000000",
+      "max_predicate_opcode": 1,
+      "fee_liquidation_threshold": 10000000,
+      "accounts_per_fee_scale": 1000,
+      "account_fee_scale_bitshifts": 4,
+      "max_authority_depth": 2,
+      "extensions": []
+  },
+  "initial_accounts": [
+  {
+  "name": "dezzyboy",
+  "owner_key": "TYS5X6Gyae4tq49uJ3LeVDymRnNDbWFwpVZqzkmk9ZzBQFEDGgabY",
+  "active_key": "TYS5X6Gyae4tq49uJ3LeVDymRnNDbWFwpVZqzkmk9ZzBQFEDGgabY",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "zeeshan",
+  "owner_key": "TYS8hVi9DP17ctdfTG8zPDNmLSWD6CYmKa9Sfj22edfA3ges9hBq9",
+  "active_key": "TYS8hVi9DP17ctdfTG8zPDNmLSWD6CYmKa9Sfj22edfA3ges9hBq9",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "johnny",
+  "owner_key": "TYS816R4zNkroH66rMXdrwcGUySEctRUVMj5XzAGSpmy7upoTPGBK",
+  "active_key": "TYS816R4zNkroH66rMXdrwcGUySEctRUVMj5XzAGSpmy7upoTPGBK",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "umar",
+  "owner_key": "TYS7sNuuTwCfg66J3WfcrW6qvs85wKxfwYpWuJX3DVdEx45GTD9GH",
+  "active_key": "TYS7sNuuTwCfg66J3WfcrW6qvs85wKxfwYpWuJX3DVdEx45GTD9GH",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "danish",
+  "owner_key": "TYS7d9NC2zoPX7zpvS3XbrZba8vu7LxihVPxSwnuDohfUYVvgRLKy",
+  "active_key": "TYS7d9NC2zoPX7zpvS3XbrZba8vu7LxihVPxSwnuDohfUYVvgRLKy",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "hassan",
+  "owner_key": "TYS8S3q6334wRthZRnR31cbUiJ1PfVESTvGT9uCkjud9pFFYRpB5E",
+  "active_key": "TYS8S3q6334wRthZRnR31cbUiJ1PfVESTvGT9uCkjud9pFFYRpB5E",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "nouman",
+  "owner_key": "TYS5SV5jZKp6pLv1MFdtyo5edLfaRvg3uCR1m3r8tVtMbBDFPwoQA",
+  "active_key": "TYS5SV5jZKp6pLv1MFdtyo5edLfaRvg3uCR1m3r8tVtMbBDFPwoQA",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "hamid",
+  "owner_key": "TYS8ZJTY1YRbkjFxmv5EzvAHwgDifDkGiuYYCbyYede89jw25abW8",
+  "active_key": "TYS8ZJTY1YRbkjFxmv5EzvAHwgDifDkGiuYYCbyYede89jw25abW8",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "johnnylee",
+  "owner_key": "TYS7VmmoqLA9zMW6mzMSuV8TCQ7C1jGFsnDrEx5HUvBuqWqRjs7P5",
+  "active_key": "TYS7VmmoqLA9zMW6mzMSuV8TCQ7C1jGFsnDrEx5HUvBuqWqRjs7P5",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "dezzyboynana",
+  "owner_key": "TYS64JV4zBR2jgdf48sH3WBzR7LM8ALPJ91byq7fsSbGjE4KYn4ZU",
+  "active_key": "TYS64JV4zBR2jgdf48sH3WBzR7LM8ALPJ91byq7fsSbGjE4KYn4ZU",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "umara",
+  "owner_key": "TYS5ZKh65SXMGhaV1K4A8c93pjbgtdWQMPSc8GkXk1bmAz7NZSQKK",
+  "active_key": "TYS5ZKh65SXMGhaV1K4A8c93pjbgtdWQMPSc8GkXk1bmAz7NZSQKK",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "danishrab",
+  "owner_key": "TYS7gvpkneBXTnj4rKwe9agA1MLvbwqDpe6MXYo4eRoombukeQuEE",
+  "active_key": "TYS7gvpkneBXTnj4rKwe9agA1MLvbwqDpe6MXYo4eRoombukeQuEE",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "daniel",
+  "owner_key": "TYS8bzKsnkWE6ia4BxE4wy1m9atps5ybj4Yv39UotBBcTwAPp4vos",
+  "active_key": "TYS8bzKsnkWE6ia4BxE4wy1m9atps5ybj4Yv39UotBBcTwAPp4vos",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "michaela",
+  "owner_key": "TYS6HhawS5mJAWXsLh1wDHEGFwt91QkszHJZx6Hwyq8QwgNLFi3cW",
+  "active_key": "TYS6HhawS5mJAWXsLh1wDHEGFwt91QkszHJZx6Hwyq8QwgNLFi3cW",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "cara",
+  "owner_key": "TYS6Nj4v7q3wG8gmJxaxhazzi22i3dQ6hWXtJPCrTzZxBUKbUB2Zv",
+  "active_key": "TYS6Nj4v7q3wG8gmJxaxhazzi22i3dQ6hWXtJPCrTzZxBUKbUB2Zv",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "zayne",
+  "owner_key": "TYS5z37hpk5TezLFq6PtvfwfaLLFtEdw8imhXv74izGjBXigLJk4i",
+  "active_key": "TYS5z37hpk5TezLFq6PtvfwfaLLFtEdw8imhXv74izGjBXigLJk4i",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "ceez",
+  "owner_key": "TYS8AWYsa1kkA7hU1RDzMqJHBK4gD1T3LnEChqmccJeaiyBokeCMY",
+  "active_key": "TYS8AWYsa1kkA7hU1RDzMqJHBK4gD1T3LnEChqmccJeaiyBokeCMY",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "martin",
+  "owner_key": "TYS7LxFEsF9CkLUNRLV8MXjCDVmD1b7dC7YSJfw6rGGQkPeaFC4vp",
+  "active_key": "TYS7LxFEsF9CkLUNRLV8MXjCDVmD1b7dC7YSJfw6rGGQkPeaFC4vp",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "vicky",
+  "owner_key": "TYS51JH9GLerioj3MeQYytkKV4i6r1FfK8rChb3jkDNhEsKrUS27X",
+  "active_key": "TYS51JH9GLerioj3MeQYytkKV4i6r1FfK8rChb3jkDNhEsKrUS27X",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "maxwell",
+  "owner_key": "TYS7VTgFhNjkxxQGXRCTTmnitsttZ2AsuuzguHJjiDAtHB7LANw6C",
+  "active_key": "TYS7VTgFhNjkxxQGXRCTTmnitsttZ2AsuuzguHJjiDAtHB7LANw6C",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "nathan",
+  "owner_key": "TYS7xxE64MyDipc84jutQbX66Z4MJPujrxX6PpzqGWwEBcNhPsDy7",
+  "active_key": "TYS7xxE64MyDipc84jutQbX66Z4MJPujrxX6PpzqGWwEBcNhPsDy7",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "nick",
+  "owner_key": "TYS7R5LvHMLPofxVjDVEyfxbD1GT9m1cyoCyjrFeijvVmtF5wKyeK",
+  "active_key": "TYS7R5LvHMLPofxVjDVEyfxbD1GT9m1cyoCyjrFeijvVmtF5wKyeK",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "nichola",
+  "owner_key": "TYS7Pcrak7boqWi8jNErUiECQerSdEwDbqNeDnzNTMNmg4DZqByS1",
+  "active_key": "TYS7Pcrak7boqWi8jNErUiECQerSdEwDbqNeDnzNTMNmg4DZqByS1",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "x-men",
+  "owner_key": "TYS8hp2ei3wfugApW3gsNzY8hYefLKF32YiufG6iRKHwk7W95BJ6A",
+  "active_key": "TYS8hp2ei3wfugApW3gsNzY8hYefLKF32YiufG6iRKHwk7W95BJ6A",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "gene",
+  "owner_key": "TYS4zkfWa7Ku1vTPuWHSXR9g1Xe1T37NSKNbMhCrnFaZPPR1V79pj",
+  "active_key": "TYS4zkfWa7Ku1vTPuWHSXR9g1Xe1T37NSKNbMhCrnFaZPPR1V79pj",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "mother",
+  "owner_key": "TYS6gHrZnRWpRS2HmGkC275pbybjwwjDEJLvxfkUon3nyMTXiPkDs",
+  "active_key": "TYS6gHrZnRWpRS2HmGkC275pbybjwwjDEJLvxfkUon3nyMTXiPkDs",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "danny",
+  "owner_key": "TYS7NuNRbeFqQheKPCAAcANwSBjNL5UZcnEpU8jPvDozshSrXntwa",
+  "active_key": "TYS7NuNRbeFqQheKPCAAcANwSBjNL5UZcnEpU8jPvDozshSrXntwa",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "julie",
+  "owner_key": "TYS8i2CQqg1CG3mxdAGDciDbbUfjynzueLMwJwV4kcChfTCAFSiQd",
+  "active_key": "TYS8i2CQqg1CG3mxdAGDciDbbUfjynzueLMwJwV4kcChfTCAFSiQd",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "someone",
+  "owner_key": "TYS8hroPyg37hgFudRwzv7u8fU2265Eio7TpimxHpCabka93rnn7z",
+  "active_key": "TYS8hroPyg37hgFudRwzv7u8fU2265Eio7TpimxHpCabka93rnn7z",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "leigh",
+  "owner_key": "TYS86h9p1a9TZ1wDvY5QS62g3h2sf72Mq1fy7BNcEctTPnUACNZnX",
+  "active_key": "TYS86h9p1a9TZ1wDvY5QS62g3h2sf72Mq1fy7BNcEctTPnUACNZnX",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "daisy",
+  "owner_key": "TYS4xZHKyeQqo6GkCFzqTSLNqpuALGRtoxMBuU3b6aipy1uqMWeJv",
+  "active_key": "TYS4xZHKyeQqo6GkCFzqTSLNqpuALGRtoxMBuU3b6aipy1uqMWeJv",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "benjamin",
+  "owner_key": "TYS6qrK6Yju6w44JFcPdH5DMAs92xKANcEWvmMbR3Xm6vPnyx5f6f",
+  "active_key": "TYS6qrK6Yju6w44JFcPdH5DMAs92xKANcEWvmMbR3Xm6vPnyx5f6f",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "end-begin",
+  "owner_key": "TYS67JoBwoKrVvnyW8v8F4zfdsevdkNtswGMiSf5K3uYAV3DHG5Lt",
+  "active_key": "TYS67JoBwoKrVvnyW8v8F4zfdsevdkNtswGMiSf5K3uYAV3DHG5Lt",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "begin",
+  "owner_key": "TYS838VtdE6YEsH5BcDak3dmh5dfMLQCb98BtszKdwyCVyFqCbSS6",
+  "active_key": "TYS838VtdE6YEsH5BcDak3dmh5dfMLQCb98BtszKdwyCVyFqCbSS6",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "genesis",
+  "owner_key": "TYS5vwFwueDtjfVs8p5o6HFM8CXL2DCfGfPpmUZNHv1hVtY3RFHiw",
+  "active_key": "TYS5vwFwueDtjfVs8p5o6HFM8CXL2DCfGfPpmUZNHv1hVtY3RFHiw",
+  "is_lifetime_member": true
+  },
+  {
+  "name": "tyslin",
+  "owner_key": "TYS7UQHEFcxgCQGSCFZCTJ6HzgBusWQbJKhgk51tkS837gFtJXR1d",
+  "active_key": "TYS7UQHEFcxgCQGSCFZCTJ6HzgBusWQbJKhgk51tkS837gFtJXR1d",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "tyslin-core",
+  "owner_key": "TYS5Mn9MfNLFjWmSSUPz2LRriWA3SRBx8kC4iz7jjTzUow4GFAZbw",
+  "active_key": "TYS5Mn9MfNLFjWmSSUPz2LRriWA3SRBx8kC4iz7jjTzUow4GFAZbw",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "district",
+  "owner_key": "TYS8XxNQ9BKSe9V7kbNKvn5Kqsp1WwjXJLvuFKjNQ3pkSfGPmKBpr",
+  "active_key": "TYS8XxNQ9BKSe9V7kbNKvn5Kqsp1WwjXJLvuFKjNQ3pkSfGPmKBpr",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "district-one",
+  "owner_key": "TYS6wBPcbqW8NWNo2aL61vetkxEe31qGQU6He3Gnc8chVgBop4GJp",
+  "active_key": "TYS6wBPcbqW8NWNo2aL61vetkxEe31qGQU6He3Gnc8chVgBop4GJp",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "jld-dev",
+  "owner_key": "TYS51Qd8cXGxV12o6aHWdivPLst2VT23cnSr61wcov9qbR2KPy9nQ",
+  "active_key": "TYS51Qd8cXGxV12o6aHWdivPLst2VT23cnSr61wcov9qbR2KPy9nQ",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "jld-development",
+  "owner_key": "TYS7qwEQtfjGZgUqRX5CmjZwxo7Qr5CboaqqmowjWWEVHx7Vb8Xmo",
+  "active_key": "TYS7qwEQtfjGZgUqRX5CmjZwxo7Qr5CboaqqmowjWWEVHx7Vb8Xmo",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "jld-gateway",
+  "owner_key": "TYS6uGYmw7kQLNK3KHYE8yT175N16sFvURatR9gZw9KuVpbNHycYK",
+  "active_key": "TYS6uGYmw7kQLNK3KHYE8yT175N16sFvURatR9gZw9KuVpbNHycYK",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "jld-chain",
+  "owner_key": "TYS6A8G4GGL9aEjkdxieRkDXn2DAJKykHwGMivzSdRuMmReTsEfvk",
+  "active_key": "TYS6A8G4GGL9aEjkdxieRkDXn2DAJKykHwGMivzSdRuMmReTsEfvk",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "jld-district",
+  "owner_key": "TYS6PvWCF3WQ2YzvKA4EQDjwxH4zoLKd5hE3KiTvFJY1pVb9DKM1L",
+  "active_key": "TYS6PvWCF3WQ2YzvKA4EQDjwxH4zoLKd5hE3KiTvFJY1pVb9DKM1L",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  },
+  {
+  "name": "tyslin-coin",
+  "owner_key": "TYS4z6Zca32qnWjqjsQf69WswCgGYKEQm9BiBN68DZQmmcicr9pHK",
+  "active_key": "TYS4z6Zca32qnWjqjsQf69WswCgGYKEQm9BiBN68DZQmmcicr9pHK",
+  "is_lifetime_member": true,
+  "is_system_account": true
+  }
+],
+  "initial_assets": [
+    {
+      "symbol": "BTC",
+      "issuer_name": "jld-chain",
+      "max_supply": 21000000000000,
+      "precision": 6,
+      "description": "BTC is a derivative that tracks the real value of 1 Bitcoin - https://bitcoin.org. It is 100% decentralized asset, backed 1:1 by real BTC and can be deposited or withdrawn using a gateway service.",
+      "is_bitasset": false,
+      "collateral_records": [],
+      "accumulated_fees": 0
+    },
+    {
+      "symbol": "LTC",
+      "issuer_name": "jld-chain",
+      "max_supply": 84000000000000,
+      "precision": 6,
+      "description": "LTC is a derivative that tracks the real value of 1 Litecoin - https://litecoin.com It is 100% decentralized asset, backed 1:1 by real LTC and can be deposited or withdrawn using bridge or gateway services.",
+      "is_bitasset": false,
+      "collateral_records": [],
+      "accumulated_fees": 0
+    },
+    {
+      "symbol": "ETH",
+      "issuer_name": "tyslin-wallet",
+      "max_supply": 100000000000000000,
+      "precision": 6,
+      "description": "ETH is a derivative that tracks the real value of 1 Ethereum - https://www.ethereum.org. It is 100% decentralized asset, backed 1:1 by real ETH and can be deposited or withdrawn using bridge or gateway services.",
+      "is_bitasset": false,
+      "collateral_records": [],
+      "accumulated_fees": 0
+    },
+    {
+      "symbol": "DASH",
+      "issuer_name": "tyslin-wallet",
+      "max_supply": 100000000000000000,
+      "precision": 6,
+      "description": "DSH is a derivative that tracks the real value of 1 Dashcoin - http://dashcoin.info. It is 100% decentralized asset, backed 1:1 by real DSH and can be deposited or withdrawn using bridge or gateway services.",
+      "is_bitasset": false,
+      "collateral_records": [],
+      "accumulated_fees": 0
+    }
+  ],
+  "initial_balances": [{
+      "owner": "TYSFAbAx7yuxt725qSZvfwWqkdCwp9ZnUama",
+      "asset_symbol": "TYS",
+      "amount": "500000000000000"
+    }
+  ], 
+  "initial_vesting_balances": [],
+  "initial_active_witnesses": 9,
+  "initial_witness_candidates": [
+  {
+  "owner_name": "dezzyboy",
+  "block_signing_key": "TYS5X6Gyae4tq49uJ3LeVDymRnNDbWFwpVZqzkmk9ZzBQFEDGgabY"
+  },
+  {
+  "owner_name": "zeeshan",
+  "block_signing_key": "TYS8hVi9DP17ctdfTG8zPDNmLSWD6CYmKa9Sfj22edfA3ges9hBq9"
+  },
+  {
+  "owner_name": "johnny",
+  "block_signing_key": "TYS816R4zNkroH66rMXdrwcGUySEctRUVMj5XzAGSpmy7upoTPGBK"
+  },
+  {
+  "owner_name": "umar",
+  "block_signing_key": "TYS7sNuuTwCfg66J3WfcrW6qvs85wKxfwYpWuJX3DVdEx45GTD9GH"
+  },
+  {
+  "owner_name": "danish",
+  "block_signing_key": "TYS7d9NC2zoPX7zpvS3XbrZba8vu7LxihVPxSwnuDohfUYVvgRLKy"
+  },
+  {
+  "owner_name": "hassan",
+  "block_signing_key": "TYS8S3q6334wRthZRnR31cbUiJ1PfVESTvGT9uCkjud9pFFYRpB5E"
+  },
+  {
+  "owner_name": "nouman",
+  "block_signing_key": "TYS5SV5jZKp6pLv1MFdtyo5edLfaRvg3uCR1m3r8tVtMbBDFPwoQA"
+  },
+  {
+  "owner_name": "hamid",
+  "block_signing_key": "TYS8ZJTY1YRbkjFxmv5EzvAHwgDifDkGiuYYCbyYede89jw25abW8"
+  },
+  {
+  "owner_name": "johnnylee",
+  "block_signing_key": "TYS7VmmoqLA9zMW6mzMSuV8TCQ7C1jGFsnDrEx5HUvBuqWqRjs7P5"
+  },
+  {
+  "owner_name": "dezzyboynana",
+  "block_signing_key": "TYS64JV4zBR2jgdf48sH3WBzR7LM8ALPJ91byq7fsSbGjE4KYn4ZU"
+  },
+  {
+  "owner_name": "umara",
+  "block_signing_key": "TYS5ZKh65SXMGhaV1K4A8c93pjbgtdWQMPSc8GkXk1bmAz7NZSQKK"
+  },
+  {
+  "owner_name": "danishrab",
+  "block_signing_key": "TYS7gvpkneBXTnj4rKwe9agA1MLvbwqDpe6MXYo4eRoombukeQuEE"
+  },
+  {
+  "owner_name": "daniel",
+  "block_signing_key": "TYS8bzKsnkWE6ia4BxE4wy1m9atps5ybj4Yv39UotBBcTwAPp4vos"
+  },
+  {
+  "owner_name": "michaela",
+  "block_signing_key": "TYS6HhawS5mJAWXsLh1wDHEGFwt91QkszHJZx6Hwyq8QwgNLFi3cW"
+  },
+  {
+  "owner_name": "cara",
+  "block_signing_key": "TYS6Nj4v7q3wG8gmJxaxhazzi22i3dQ6hWXtJPCrTzZxBUKbUB2Zv"
+  },
+  {
+  "owner_name": "zayne",
+  "block_signing_key": "TYS5z37hpk5TezLFq6PtvfwfaLLFtEdw8imhXv74izGjBXigLJk4i"
+  },
+  {
+  "owner_name": "ceez",
+  "block_signing_key": "TYS8AWYsa1kkA7hU1RDzMqJHBK4gD1T3LnEChqmccJeaiyBokeCMY"
+  },
+  {
+  "owner_name": "martin",
+  "block_signing_key": "TYS7LxFEsF9CkLUNRLV8MXjCDVmD1b7dC7YSJfw6rGGQkPeaFC4vp"
+  },
+  {
+  "owner_name": "vicky",
+  "block_signing_key": "TYS51JH9GLerioj3MeQYytkKV4i6r1FfK8rChb3jkDNhEsKrUS27X"
+  },
+  {
+  "owner_name": "maxwell",
+  "block_signing_key": "TYS7VTgFhNjkxxQGXRCTTmnitsttZ2AsuuzguHJjiDAtHB7LANw6C"
+  },
+  {
+  "owner_name": "nathan",
+  "block_signing_key": "TYS7xxE64MyDipc84jutQbX66Z4MJPujrxX6PpzqGWwEBcNhPsDy7"
+  },
+  {
+  "owner_name": "nick",
+  "block_signing_key": "TYS7R5LvHMLPofxVjDVEyfxbD1GT9m1cyoCyjrFeijvVmtF5wKyeK"
+  },
+  {
+  "owner_name": "nichola",
+  "block_signing_key": "TYS7Pcrak7boqWi8jNErUiECQerSdEwDbqNeDnzNTMNmg4DZqByS1"
+  },
+  {
+  "owner_name": "x-men",
+  "block_signing_key": "TYS8hp2ei3wfugApW3gsNzY8hYefLKF32YiufG6iRKHwk7W95BJ6A"
+  },
+  {
+  "owner_name": "gene",
+  "block_signing_key": "TYS4zkfWa7Ku1vTPuWHSXR9g1Xe1T37NSKNbMhCrnFaZPPR1V79pj"
+  },
+  {
+  "owner_name": "mother",
+  "block_signing_key": "TYS6gHrZnRWpRS2HmGkC275pbybjwwjDEJLvxfkUon3nyMTXiPkDs"
+  },
+  {
+  "owner_name": "danny",
+  "block_signing_key": "TYS7NuNRbeFqQheKPCAAcANwSBjNL5UZcnEpU8jPvDozshSrXntwa"
+  },
+  {
+  "owner_name": "julie",
+  "block_signing_key": "TYS8i2CQqg1CG3mxdAGDciDbbUfjynzueLMwJwV4kcChfTCAFSiQd"
+  },
+  {
+  "owner_name": "someone",
+  "block_signing_key": "TYS8hroPyg37hgFudRwzv7u8fU2265Eio7TpimxHpCabka93rnn7z"
+  },
+  {
+  "owner_name": "leigh",
+  "block_signing_key": "TYS86h9p1a9TZ1wDvY5QS62g3h2sf72Mq1fy7BNcEctTPnUACNZnX"
+  },
+  {
+  "owner_name": "daisy",
+  "block_signing_key": "TYS4xZHKyeQqo6GkCFzqTSLNqpuALGRtoxMBuU3b6aipy1uqMWeJv"
+  },
+  {
+  "owner_name": "benjamin",
+  "block_signing_key": "TYS6qrK6Yju6w44JFcPdH5DMAs92xKANcEWvmMbR3Xm6vPnyx5f6f"
+  },
+  {
+  "owner_name": "end-begin",
+  "block_signing_key": "TYS67JoBwoKrVvnyW8v8F4zfdsevdkNtswGMiSf5K3uYAV3DHG5Lt"
+  },
+  {
+  "owner_name": "begin",
+  "block_signing_key": "TYS838VtdE6YEsH5BcDak3dmh5dfMLQCb98BtszKdwyCVyFqCbSS6"
+  },
+  {
+  "owner_name": "genesis",
+  "block_signing_key": "TYS5vwFwueDtjfVs8p5o6HFM8CXL2DCfGfPpmUZNHv1hVtY3RFHiw"
+  }
+],
+  "initial_committee_candidates": [
+  {
+  "owner_name": "dezzyboy"
+  },
+  {
+  "owner_name": "zeeshan"
+  },
+  {
+  "owner_name": "umar"
+  },
+  {
+  "owner_name": "danish"
+  },
+  {
+  "owner_name": "hassan"
+  },
+  {
+  "owner_name": "johnny"
+  },
+  {
+  "owner_name": "dezzynana"
+  },
+  {
+  "owner_name": "gene"
+  },
+  {
+  "owner_name": "nichola"
+  },
+  {
+  "owner_name": "julie"
+  },
+  {
+  "owner_name": "tyslin"
+  },
+  {
+  "owner_name": "danishrab"
+  },
+  {
+  "owner_name": "daniel"
+  },
+  {
+  "owner_name": "michaela"
+  },
+  {
+  "owner_name": "cara"
+  },
+  {
+  "owner_name": "zayne"
+  },
+  {
+  "owner_name": "ceez"
+  },
+  {
+  "owner_name": "vicky"
+  },
+  {
+  "owner_name": "maxwell"
+  },
+  {
+  "owner_name": "nathan"
+  },
+  {
+  "owner_name": "mother"
+  },
+  {
+  "owner_name": "danny"
+  }
+],
+  "initial_worker_candidates": [],
+  "immutable_parameters": {
+      "min_committee_member_count": 9,
+      "min_witness_count": 9,
+      "num_special_accounts": 0,
+      "num_special_assets": 0
+  }
+}
