@@ -16,7 +16,7 @@ Visit [district1.io](https://district1.io/) to learn about Tyslon.
 **NOTE:** The official Tyslon git repository location, default branch, and submodule remotes were recently changed. Existing
 repositories can be updated with the following steps:
 
-    git remote set-url origin https://github.com/TyslonIS/Tyslon-core.git
+    git remote set-url origin https://github.com/district1/Tyslon-core.git
     git checkout master
     git remote set-head origin --auto
     git pull
